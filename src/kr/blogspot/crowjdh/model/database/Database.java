@@ -1,4 +1,7 @@
-package kr.blogspot.crowjdh;
+package kr.blogspot.crowjdh.model.database;
+
+import kr.blogspot.crowjdh.model.database.proxy.DatabaseProxy;
+import kr.blogspot.crowjdh.model.database.proxy.DatabaseProxyFactory;
 
 public class Database implements DatabaseProxy {
     private volatile static DatabaseProxy instance;

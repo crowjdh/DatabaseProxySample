@@ -1,4 +1,4 @@
-package kr.blogspot.crowjdh;
+package kr.blogspot.crowjdh.model.database.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
