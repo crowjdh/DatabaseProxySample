@@ -35,6 +35,6 @@ public class Database implements DatabaseProxy {
 	}
 	
 	private void somePrivateMethod() {
-		System.out.println("This method is not wrapper by transaction.");
+		System.out.println("This method is not wrapped by it's own transaction.");
 	}
 }
